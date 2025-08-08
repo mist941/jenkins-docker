@@ -1,0 +1,9 @@
+jenkins:
+  systemMessage: "Managed by JCasC"
+  numExecutors: 2
+
+unclassified:
+  location:
+    url: "http://localhost:8080/"
+  jobDslSecurityConfiguration:
+    useScriptSecurity: false
