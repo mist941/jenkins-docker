@@ -2,9 +2,6 @@ jenkins:
   securityRealm:
     local:
       allowsSignup: false
-      users:
-        - id: "${ADMIN_USER:-admin}"
-          password: "${ADMIN_PASSWORD:-admin}"
 
   authorizationStrategy:
     loggedInUsersCanDoAnything:

@@ -21,7 +21,7 @@ services:
 
   jenkins:
     build: .
-    container_name: jenkins-blueocean
+    container_name: jenkins
     restart: on-failure
     networks:
       - jenkins
